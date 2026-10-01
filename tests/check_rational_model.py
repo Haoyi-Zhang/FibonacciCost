@@ -18,12 +18,16 @@ from __future__ import annotations
 import argparse
 import itertools
 import json
-import resource
+import sys
 import time
 from collections import deque
 from fractions import Fraction
 from pathlib import Path
 from typing import Iterable
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'src'))
+from platform_support import require_supported_environment
+resource = require_supported_environment('tests/check_rational_model.py')
 
 Q = Fraction
 

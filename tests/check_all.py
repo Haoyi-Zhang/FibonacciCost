@@ -1,6 +1,8 @@
 from pathlib import Path
-import sys,itertools,random,json,time,resource,argparse
+import sys,itertools,random,json,time,argparse
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'src'))
+from platform_support import require_supported_environment
+resource = require_supported_environment('tests/check_all.py')
 from cascades import Graph,Table,Work,distances,saturation,unchanged,rebuild,update,relay
 from oracle import bellman,partition
 from families import make_task,changed_costs

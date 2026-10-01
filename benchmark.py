@@ -6,11 +6,13 @@ creating the new heuristic evaluator. A* and update timings are recorded per run
 The same inputs recur for three timing repeats, not three independent samples.
 """
 from __future__ import annotations
-import argparse, json, sys, time, resource
+import argparse, json, sys, time
 from pathlib import Path
 from fractions import Fraction
 from dataclasses import asdict
 sys.path.insert(0, str(Path(__file__).resolve().parent/'src'))
+from platform_support import require_supported_environment
+resource = require_supported_environment('benchmark.py')
 from cascades import rebuild, update, distances, Work, astar
 from families import make_task, relay_task, changed_costs
 

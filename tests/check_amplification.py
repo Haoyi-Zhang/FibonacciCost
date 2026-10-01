@@ -1,12 +1,13 @@
 """Exact checks for the tight Fibonacci support-two construction; one worker."""
 import argparse
 import json
-import resource
 import sys
 import time
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'src'))
+from platform_support import require_supported_environment
+resource = require_supported_environment('tests/check_amplification.py')
 from cascades import rebuild, update
 from oracle import partition
 from families import fibonacci, fibonacci_amplifier_task

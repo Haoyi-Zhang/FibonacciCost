@@ -25,18 +25,63 @@ bounded 65-source collision audit is in `proofs/literature.tex`, with structured
 metadata in `literature_matrix.csv` and canonical BibTeX in
 `literature/references.bib`.
 
+## Supported reproduction environment
+
+The supported and verified runtime is **Linux** (a Unix-like environment),
+including native Linux, a Linux container, or Linux running inside WSL2. Use
+CPython 3.10 or later **without `-O` or `PYTHONOPTIMIZE`**. The retained runs
+used CPython 3.13.5 on x86-64 Linux. No Python package installation, internet
+access, downloaded data, planner, or model API is needed.
+
+The scripts intentionally use Python's Unix-only `resource` module. Native
+Windows Python is therefore not supported even when its Python version is new
+enough. On Windows, open a WSL2 Linux distribution, extract or copy the
+repository into that Linux environment, and run the commands there with the
+Linux interpreter (commonly `python3`). Do not invoke the runner with Windows
+Python from PowerShell or `cmd.exe`. macOS and BSD are not claimed by this
+release: although they may provide `resource`, their `ru_maxrss` units and the
+full toolchain were not validated.
+
+Run the non-destructive environment preflight from the extracted repository
+root:
+
+```sh
+python reproduce.py --check-environment
+```
+
+A supported run reports Linux, Python >=3.10, optimization level zero, and the
+resource-accounting semantics. An unsupported platform fails before scientific
+work begins; it does not emit substitute CPU/RSS values.
+
 ## Reproduce from a clean extraction
 
-Use Python 3.10 or later without `-O`. The retained runs used Python 3.13.5.
-No Python package installation, internet access, downloaded data, planner, or
-model API is needed. From the extracted repository root run:
+From the extracted repository root run:
 
 ```sh
 python reproduce.py --out ../cost-cascades-reproduction
 ```
 
-The destination must not already exist. One child runs at a time with a
-40-second hard timeout. The command performs, in order:
+Under WSL2, run the same command inside the Linux distribution, using `python3`
+if that is the interpreter name there. The destination must not already exist.
+The runner never overwrites retained primary measurements. It launches one
+child at a time, each with a 40-second hard timeout. The internal A* limit
+remains 100,000 expansions with an 8-second cooperative time check every 128
+expansions.
+
+Linux resource fields retain their original meanings:
+
+- CPU fields are seconds from `time.process_time()` for the current process or
+  `resource.getrusage(RUSAGE_CHILDREN).ru_utime + ru_stime` for completed
+  children.
+- `*_peak_rss_kib` is Linux `ru_maxrss`, in KiB. For `RUSAGE_CHILDREN` it is
+  the Linux-reported child peak, not a sum of simultaneous processes; the runner
+  uses one child at a time.
+- Wall-clock and process measurements, including all fine-grained timing
+  fields, are allowed to vary and are excluded from deterministic equality.
+  No unavailable measurement is filled with zero or inferred from another
+  platform.
+
+The command performs, in order:
 
 1. bibliography/matrix/manuscript integration validation;
 2. the discriminating pilot;
@@ -47,16 +92,14 @@ The destination must not already exist. One child runs at a time with a
 7. three bounded timing shards; and
 8. deterministic reconciliation and timing comparison.
 
-It never overwrites retained primary measurements. `commands.json` records
-arguments, exit codes, stdout, stderr, wall time, and child CPU time.
-`reproduction.json` reports the final reconciliation. Timing and process
-measurements are excluded from exact equality; generated inputs, graphs,
-costs, work counters, search outcomes, costs, expansions, and generated-node
-counts must match.
+`commands.json` records arguments, exit codes, stdout, stderr, wall time, and
+child CPU time. `reproduction.json` records the validated Linux environment and
+final reconciliation. Generated inputs, graphs, costs, work counters, search
+outcomes, solution costs, expansions, and generated-node counts must match;
+timing and process measurements are retained separately and need not match.
 
 A slower host that hits a timeout has not reproduced the campaign; partial
-outputs remain for diagnosis. The internal A* limit is 100,000 expansions and
-an 8-second cooperative time check every 128 expansions.
+outputs remain for diagnosis.
 
 ## Repository map
 
@@ -66,6 +109,8 @@ an 8-second cooperative time check every 128 expansions.
   label-major partition calculation; it imports none of the candidate
   shortest-path or saturation functions.
 - `src/families.py`: coordinate, relay, and amplifier generators.
+- `src/platform_support.py`: Linux/CPython preflight and truthful `resource`
+  accounting contract; unsupported platforms fail before execution.
 - `pilot.py`: smallest end-to-end discriminating cases and negative controls.
 - `tests/check_all.py`: 40,095 graph/cost pairs, 98,415 Lipschitz cases,
   172,800 two-table onset cases, 1,440 sequential updates, concrete

@@ -1,6 +1,8 @@
 from pathlib import Path
-import sys,json,time,resource,itertools,argparse
+import sys,json,time,itertools,argparse
 sys.path.insert(0,str(Path(__file__).parent/'src'))
+from platform_support import require_supported_environment
+resource = require_supported_environment('pilot.py')
 from cascades import *
 from oracle import partition
 from families import fibonacci, fibonacci_amplifier_task
