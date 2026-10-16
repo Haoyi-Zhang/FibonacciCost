@@ -48,6 +48,12 @@ and not inferred from bounded action incidence.
 
 ## Build the proof PDF
 
+The publisher carry diagram is also available as a direct Python vector PDF.
+Install `requirements-figures.txt`, then run
+`python figures/draw_schematics.py --out figures` from this repository root.
+It represents the symbolic carry step; the numerical tables still come from
+the retained `results/summary.json` through `make_tables.py`.
+
 The proof build needs XeLaTeX, BibTeX, and the standard TeX packages loaded by
 `proofs/supplement.tex`. It does not require a sibling `paper/` directory or
 the publisher build driver. From this repository's root, run:

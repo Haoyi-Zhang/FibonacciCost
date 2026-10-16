@@ -22,7 +22,7 @@ def main():
             lines.append(f"{family.title() if idx==0 else ''} & {NAMES[r['method']]} & {r['cases']} & {r['rewritten_percent']:.1f} & {r['sum_update_ms']:.3f} & {r['sum_total_ms']:.2f} & {r['total_ratio']:.3f} & {r['sum_expansions']:,}"+r'\\')
         lines.append(r'\midrule')
     lines[-1]=r'\bottomrule'
-    lines += [r'\end{tabular}',r'\caption{Primary synthetic campaign by family. Times sum per-instance medians; repetitions are not independent tasks. Ratios use the summed update-plus-search times within a family. Written percentages are weighted by table size. All methods solve every case.}',r'\label{tab:families}',r'\end{table}',r'\end{landscape}']
+    lines += [r'\end{tabular}',r'\caption{Primary synthetic campaign by task family.}',r'\label{tab:families}',r'\end{table}',r'\end{landscape}']
     (out/'family-results.tex').write_text('\n'.join(lines)+'\n')
     print('generated results.tex and family-results.tex')
 if __name__=='__main__':main()
