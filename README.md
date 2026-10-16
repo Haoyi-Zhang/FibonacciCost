@@ -131,9 +131,7 @@ The full driver runs both portable checks without running the optional study.
 
 The frozen Windows cohort `results/saturation/saturation.json` remains
 historical. Its exact sources are `results/saturation/sources/cascades.py`
-(SHA256 `2ba4323e6f1cc07e490711deaedb2f01f905ebe59cd39346786a1a488656b912`)
-and `results/saturation/sources/saturation_benchmark.py`
-(SHA256 `186acde40f1ffaff1b8551bd88532f6bd86669809717dae0483b7d30e3d00e92`).
+and `results/saturation/sources/saturation_benchmark.py`.
 They are provenance copies, not imported by the checks or production code.
 The optional root `saturation_benchmark.py` now prepares its own non-self-edge
 index and compares that distinct historical kernel with current all-edge
