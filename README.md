@@ -313,11 +313,7 @@ bounded Python microbenchmarks, not a production-planner speed claim.
 
 ## Literature and reference integrity
 
-`literature/references.bib` is the single canonical 65-work bibliography.
-The main note cites 52 distinct works in prose; the essential-proof supplement
-cites 2. All 65 appear in the separate artifact literature audit,
-`proofs/literature.tex`, which is not included in the publisher supplement.
-`literature/main-citations.txt` lists the main selection.
+`literature/references.bib` is the single canonical 65-work bibliography. The main note cites 52 distinct works in prose; the essential-proof supplement cites 2. The separate artifact literature audit, `proofs/literature.tex`, cites 64 distinct works and is not included in the publisher supplement. The 2010 Katz--Domshlak journal record remains in the canonical bibliography at its recorded reading scope but is not cited by the current documents; the current background clause uses the 2008 ICAPS original. `literature/main-citations.txt` lists the main selection.
 
 ```sh
 python -B tests/check_bibliography.py --out -
@@ -330,14 +326,7 @@ when present, or an explicit `--paper-dir PATH`; it rejects missing inputs,
 unresolved citations and wildcard padding. Without publisher sources it checks
 the recorded key list, not absent manuscript text.
 
-Matrix reading-depth fields and resource records document the scope of source
-checks; citation selection is not full-text certification. Reproduction
-checks bibliography metadata against the canonical parsed content. Numerical
-and source-pin controls remain unchanged.
-The matrix's citation flags distinguish the 52-source main note,
-2-source publisher supplement and 65-source artifact audit. The field definitions
-are in `literature/README.md`. Citation inclusion is not evidence of a full-text
-reading or complete claim support.
+Matrix reading-depth fields and resource records document the scope of source checks; citation selection is not full-text certification. Reproduction checks bibliography metadata against the canonical parsed content. Numerical and source-pin controls remain unchanged. The matrix's citation flags distinguish the 52-source main note, 2-source publisher supplement and 64-source artifact audit within the retained 65-record inventory. The field definitions are in `literature/README.md`. Citation inclusion is not evidence of a full-text reading or complete claim support.
 
 ## Model and trust boundary
 

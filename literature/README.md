@@ -49,10 +49,4 @@ cited by the current main note, publisher supplement, or artifact audit.
 These statuses distinguish
 identity, passage support and whole-source proof review.
 
-In `../literature_matrix.csv`, `cited_in_main` and `cited_in_supplement` refer
-to the current publisher main note and publisher supplement (52 and 2 records).
-`cited_in_artifact_audit` refers to the separate 65-source artifact literature
-audit. Citation flags
-record document inclusion, not reading depth or full-text support. The source
-tiers, access dates, edition notes and reading-depth fields retain their
-recorded evidence scope.
+In `../literature_matrix.csv`, `cited_in_main` and `cited_in_supplement` refer to the current publisher main note and publisher supplement (52 and 2 records). `cited_in_artifact_audit` marks the 64 records cited by the separate artifact literature audit within the canonical 65-record bibliography. Citation flags record document inclusion, not reading depth or full-text support. The source tiers, access dates, edition notes and reading-depth fields retain their recorded evidence scope.
