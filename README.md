@@ -46,6 +46,14 @@ width is `Theta(k)`; no constant-bit exponential-magnitude claim follows.
 Support at most two is required after every table, not just at the endpoints
 and not inferred from bounded action incidence.
 
+The distinction has a two-state boundary example. With four parallel advancing
+labels occurring in only one table, changing offered costs from `(2,2,2,2)` to
+`(1,2,2,2)` changes outgoing residuals from all zero to `(0,1,1,1)`. Incidence
+one therefore permits support three. More parallel labels enlarge the support
+without changing incidence. This is outside the support-two envelope, not a
+failure of exact reuse. Run the untimed check with
+`python -B -m unittest discover -s tests -p test_support_boundary.py -v`.
+
 ## Build the proof PDF
 
 The publisher carry diagram is also available as a direct Python vector PDF.
