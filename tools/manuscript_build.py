@@ -1,4 +1,4 @@
-"""Build and validate the current Elsevier research note and supplement.
+"""Build and validate the current Elsevier research article and supplement.
 
 Run from this directory with ``python build.py``.  The script does not install
 software or alter publisher style files.  It regenerates data-derived tables,
@@ -235,7 +235,7 @@ def main() -> None:
         "publisher_style_hashes": style_hashes,
         "publisher_class_matches_retained_current_class": True,
         "source_spacing_and_margin_override_scan": "passed",
-        "format": "elsarticle preprint research note",
+        "format": "elsarticle preprint research article",
         "venue_numeric_limits_validated": False,
         "wall_seconds": time.perf_counter() - start,
         "child_cpu_seconds": child.ru_utime + child.ru_stime,

@@ -27,7 +27,7 @@
       "registered_geometry_identical": true
     }
   ],
-  "scope": "Current registered PDF build and font/layout measurements; venue numerical limits and a Linux paper/build.py run are not established by this record.",
+  "scope": "Historical captured build measurements for the earlier 5-page main and 24-page supplement, not measurements of the current manuscript. Retained for the document_build link in resource_accounting.json; no current article-type, word-count exemption or Linux paper/build.py run is established by this record.",
   "historical_aaai_build": {
     "bibliography_source_copies_identical": true,
     "child_cpu_seconds": 4.8430029999999995,

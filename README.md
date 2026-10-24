@@ -30,7 +30,11 @@ The proof PDF combines those two sources with the self-loop study in
 In the current full project archive, the publisher submission uses 52 references in
 `../paper/main.tex` and 2 in the additional-proof supplement,
 `../paper/supplement.tex`, whose body is `../paper/supplement-proofs.tex`.
-The full artifact proof and literature-audit sources remain available here;
+The submission category is an AIJ regular research article, using the
+unchanged 11 pt single-column Elsevier preprint template. The journal's
+[official submission guidance](https://aij.ijcai.org/submitting-an-article/)
+sets no fixed page limit for regular articles. No supplementary word-count
+exemption is assumed. The full artifact proof and literature-audit sources remain available here;
 they are not inputs to that publisher supplement. The main note contains the
 full support-two transition proof, parity induction, initializer/carry/cleanup
 construction, and exact-reuse/ordered-repair argument without essential-proof
@@ -288,6 +292,12 @@ closure, but not the publisher build tree. The full project archive contains
 `paper/` and `paper/build.py`.
 
 ## Retained evidence
+
+`results/paper_build.json` is a historical captured document-build record
+linked by `results/resource_accounting.json`; its earlier page/reference
+counts do not describe the current main article or either current supplement.
+Current publisher sources and build instructions are in the full archive's
+`paper/` directory.
 
 The retained correctness campaign passes:
 
