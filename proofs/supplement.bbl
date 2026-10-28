@@ -1,0 +1,529 @@
+\begin{thebibliography}{64}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{Bellman(1958)}]{bellman1958}
+\bibinfo{author}{Bellman, R.E.}, \bibinfo{year}{1958}.
+\newblock \bibinfo{title}{On a routing problem}.
+\newblock \bibinfo{journal}{Quarterly of Applied Mathematics}
+  \bibinfo{volume}{16}, \bibinfo{pages}{87--90}.
+%Type = Inproceedings
+\bibitem[{Bonet(2013)}]{bonet2013}
+\bibinfo{author}{Bonet, B.}, \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{An admissible heuristic for {SAS+} planning obtained
+  from the state equation}, in: \bibinfo{booktitle}{Proceedings of the
+  Twenty-Third International Joint Conference on Artificial Intelligence}, pp.
+  \bibinfo{pages}{2268--2274}.
+%Type = Article
+\bibitem[{Bonet and Geffner(2001)}]{bonetgeffner2001}
+\bibinfo{author}{Bonet, B.}, \bibinfo{author}{Geffner, H.},
+  \bibinfo{year}{2001}.
+\newblock \bibinfo{title}{Planning as heuristic search}.
+\newblock \bibinfo{journal}{Artificial Intelligence} \bibinfo{volume}{129},
+  \bibinfo{pages}{5--33}.
+%Type = Inproceedings
+\bibitem[{B{\"u}chner et~al.(2024)B{\"u}chner, Ferber, Seipp and
+  Helmert}]{abstractionfactored2024}
+\bibinfo{author}{B{\"u}chner, C.}, \bibinfo{author}{Ferber, P.},
+  \bibinfo{author}{Seipp, J.}, \bibinfo{author}{Helmert, M.},
+  \bibinfo{year}{2024}.
+\newblock \bibinfo{title}{Abstraction heuristics for factored tasks}, in:
+  \bibinfo{booktitle}{Proceedings of the Thirty-Fourth International Conference
+  on Automated Planning and Scheduling}, pp. \bibinfo{pages}{40--49}.
+%Type = Article
+\bibitem[{Culberson and Schaeffer(1998)}]{culberson1998}
+\bibinfo{author}{Culberson, J.C.}, \bibinfo{author}{Schaeffer, J.},
+  \bibinfo{year}{1998}.
+\newblock \bibinfo{title}{Pattern databases}.
+\newblock \bibinfo{journal}{Computational Intelligence} \bibinfo{volume}{14},
+  \bibinfo{pages}{318--334}.
+%Type = Article
+\bibitem[{Demetrescu and Italiano(2004)}]{demetrescu2004}
+\bibinfo{author}{Demetrescu, C.}, \bibinfo{author}{Italiano, G.F.},
+  \bibinfo{year}{2004}.
+\newblock \bibinfo{title}{A new approach to dynamic all pairs shortest paths}.
+\newblock \bibinfo{journal}{Journal of the ACM} \bibinfo{volume}{51},
+  \bibinfo{pages}{968--992}.
+%Type = Article
+\bibitem[{Dijkstra(1959)}]{dijkstra1959}
+\bibinfo{author}{Dijkstra, E.W.}, \bibinfo{year}{1959}.
+\newblock \bibinfo{title}{A note on two problems in connexion with graphs}.
+\newblock \bibinfo{journal}{Numerische Mathematik} \bibinfo{volume}{1},
+  \bibinfo{pages}{269--271}.
+%Type = Inproceedings
+\bibitem[{Drexler et~al.(2021)Drexler, Seipp and Speck}]{transitioncp2021}
+\bibinfo{author}{Drexler, D.}, \bibinfo{author}{Seipp, J.},
+  \bibinfo{author}{Speck, D.}, \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Subset-saturated transition cost partitioning}, in:
+  \bibinfo{booktitle}{Proceedings of the Thirty-First International Conference
+  on Automated Planning and Scheduling}, pp. \bibinfo{pages}{131--139}.
+%Type = Inproceedings
+\bibitem[{Edelkamp(2001)}]{edelkamp2001}
+\bibinfo{author}{Edelkamp, S.}, \bibinfo{year}{2001}.
+\newblock \bibinfo{title}{Planning with pattern databases}, in:
+  \bibinfo{booktitle}{Proceedings of the Sixth European Conference on
+  Planning}, pp. \bibinfo{pages}{84--90}.
+\newblock \URLprefix \url{https://cdn.aaai.org/ocs/7280/7280-37829-1-PB.pdf}.
+%Type = Inproceedings
+\bibitem[{Edelkamp(2007)}]{edelkamp2006}
+\bibinfo{author}{Edelkamp, S.}, \bibinfo{year}{2007}.
+\newblock \bibinfo{title}{Automated creation of pattern database search
+  heuristics}, in: \bibinfo{booktitle}{Model Checking and Artificial
+  Intelligence}, \bibinfo{publisher}{Springer}. pp. \bibinfo{pages}{35--50}.
+\newblock \DOIprefix\doi{10.1007/978-3-540-74128-2_3}.
+%Type = Article
+\bibitem[{Felner et~al.(2004)Felner, Korf and Hanan}]{felner2004}
+\bibinfo{author}{Felner, A.}, \bibinfo{author}{Korf, R.E.},
+  \bibinfo{author}{Hanan, S.}, \bibinfo{year}{2004}.
+\newblock \bibinfo{title}{Additive pattern database heuristics}.
+\newblock \bibinfo{journal}{Journal of Artificial Intelligence Research}
+  \bibinfo{volume}{22}, \bibinfo{pages}{279--318}.
+%Type = Article
+\bibitem[{Frigioni et~al.(2000)Frigioni, Marchetti-Spaccamela and
+  Nanni}]{frigioni2000}
+\bibinfo{author}{Frigioni, D.}, \bibinfo{author}{Marchetti-Spaccamela, A.},
+  \bibinfo{author}{Nanni, U.}, \bibinfo{year}{2000}.
+\newblock \bibinfo{title}{Fully dynamic algorithms for maintaining shortest
+  paths trees}.
+\newblock \bibinfo{journal}{Journal of Algorithms} \bibinfo{volume}{34},
+  \bibinfo{pages}{251--281}.
+\newblock \DOIprefix\doi{10.1006/jagm.1999.1048}.
+%Type = Article
+\bibitem[{Hart et~al.(1968)Hart, Nilsson and Raphael}]{hart1968}
+\bibinfo{author}{Hart, P.E.}, \bibinfo{author}{Nilsson, N.J.},
+  \bibinfo{author}{Raphael, B.}, \bibinfo{year}{1968}.
+\newblock \bibinfo{title}{A formal basis for the heuristic determination of
+  minimum cost paths}.
+\newblock \bibinfo{journal}{IEEE Transactions on Systems Science and
+  Cybernetics} \bibinfo{volume}{4}, \bibinfo{pages}{100--107}.
+%Type = Inproceedings
+\bibitem[{Haslum et~al.(2007)Haslum, Botea, Helmert, Bonet and
+  Koenig}]{haslum2007}
+\bibinfo{author}{Haslum, P.}, \bibinfo{author}{Botea, A.},
+  \bibinfo{author}{Helmert, M.}, \bibinfo{author}{Bonet, B.},
+  \bibinfo{author}{Koenig, S.}, \bibinfo{year}{2007}.
+\newblock \bibinfo{title}{Domain-independent construction of pattern database
+  heuristics for cost-optimal planning}, in: \bibinfo{booktitle}{Proceedings of
+  the Twenty-Second AAAI Conference on Artificial Intelligence}, pp.
+  \bibinfo{pages}{1007--1012}.
+\newblock \URLprefix \url{https://cdn.aaai.org/AAAI/2007/AAAI07-160.pdf}.
+%Type = Article
+\bibitem[{Helmert(2006)}]{helmert2006}
+\bibinfo{author}{Helmert, M.}, \bibinfo{year}{2006}.
+\newblock \bibinfo{title}{The fast downward planning system}.
+\newblock \bibinfo{journal}{Journal of Artificial Intelligence Research}
+  \bibinfo{volume}{26}, \bibinfo{pages}{191--246}.
+%Type = Inproceedings
+\bibitem[{Helmert and Domshlak(2009)}]{helmertdomshlak2009}
+\bibinfo{author}{Helmert, M.}, \bibinfo{author}{Domshlak, C.},
+  \bibinfo{year}{2009}.
+\newblock \bibinfo{title}{Landmarks, critical paths and abstractions: What's
+  the difference anyway?}, in: \bibinfo{booktitle}{Proceedings of the
+  Nineteenth International Conference on Automated Planning and Scheduling},
+  pp. \bibinfo{pages}{162--169}.
+%Type = Article
+\bibitem[{Helmert et~al.(2014)Helmert, Haslum, Hoffmann and
+  Nissim}]{helmert2014}
+\bibinfo{author}{Helmert, M.}, \bibinfo{author}{Haslum, P.},
+  \bibinfo{author}{Hoffmann, J.}, \bibinfo{author}{Nissim, R.},
+  \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{Merge-and-shrink abstraction: A method for generating
+  lower bounds in factored state spaces}.
+\newblock \bibinfo{journal}{Journal of the ACM} \bibinfo{volume}{61},
+  \bibinfo{pages}{16:1--16:63}.
+%Type = Inproceedings
+\bibitem[{Hern{\'a}ndez et~al.(2012)Hern{\'a}ndez, Baier, Uras and
+  Koenig}]{hernandez2012}
+\bibinfo{author}{Hern{\'a}ndez, C.}, \bibinfo{author}{Baier, J.},
+  \bibinfo{author}{Uras, T.}, \bibinfo{author}{Koenig, S.},
+  \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{Position paper: Incremental search algorithms
+  considered poorly understood}, in: \bibinfo{booktitle}{Proceedings of the
+  Fifth Annual Symposium on Combinatorial Search}, pp.
+  \bibinfo{pages}{159--161}.
+\newblock \DOIprefix\doi{10.1609/socs.v3i1.18268}.
+%Type = Inproceedings
+\bibitem[{H{\"o}ft et~al.(2024)H{\"o}ft, Speck, Pommerening and
+  Seipp}]{sensitivity2024}
+\bibinfo{author}{H{\"o}ft, P.}, \bibinfo{author}{Speck, D.},
+  \bibinfo{author}{Pommerening, F.}, \bibinfo{author}{Seipp, J.},
+  \bibinfo{year}{2024}.
+\newblock \bibinfo{title}{Versatile cost partitioning with exact sensitivity
+  analysis}, in: \bibinfo{booktitle}{Proceedings of the Thirty-Fourth
+  International Conference on Automated Planning and Scheduling}, pp.
+  \bibinfo{pages}{276--280}.
+%Type = Inproceedings
+\bibitem[{H{\"o}ft et~al.(2023)H{\"o}ft, Speck and Seipp}]{sensitivity2023}
+\bibinfo{author}{H{\"o}ft, P.}, \bibinfo{author}{Speck, D.},
+  \bibinfo{author}{Seipp, J.}, \bibinfo{year}{2023}.
+\newblock \bibinfo{title}{Sensitivity analysis for saturated post-hoc
+  optimization in classical planning}, in: \bibinfo{booktitle}{Proceedings of
+  the Twenty-Sixth European Conference on Artificial Intelligence}, pp.
+  \bibinfo{pages}{1044--1051}.
+%Type = Inproceedings
+\bibitem[{H{\"o}ft et~al.(2025)H{\"o}ft, Speck and Seipp}]{perfect2025}
+\bibinfo{author}{H{\"o}ft, P.}, \bibinfo{author}{Speck, D.},
+  \bibinfo{author}{Seipp, J.}, \bibinfo{year}{2025}.
+\newblock \bibinfo{title}{Representing perfect saturated cost partitioning
+  heuristics in classical planning}, in: \bibinfo{booktitle}{Proceedings of the
+  Twenty-Second International Conference on Principles of Knowledge
+  Representation and Reasoning}, pp. \bibinfo{pages}{821--831}.
+%Type = Article
+\bibitem[{Holte et~al.(2006)Holte, Felner, Newton, Meshulam and
+  Furcy}]{holte2006}
+\bibinfo{author}{Holte, R.C.}, \bibinfo{author}{Felner, A.},
+  \bibinfo{author}{Newton, J.}, \bibinfo{author}{Meshulam, R.},
+  \bibinfo{author}{Furcy, D.}, \bibinfo{year}{2006}.
+\newblock \bibinfo{title}{Maximizing over multiple pattern databases speeds up
+  heuristic search}.
+\newblock \bibinfo{journal}{Artificial Intelligence} \bibinfo{volume}{170},
+  \bibinfo{pages}{1123--1136}.
+\newblock \DOIprefix\doi{10.1016/j.artint.2006.09.002}.
+%Type = Article
+\bibitem[{Karp and Orlin(1981)}]{karporlin1981}
+\bibinfo{author}{Karp, R.M.}, \bibinfo{author}{Orlin, J.B.},
+  \bibinfo{year}{1981}.
+\newblock \bibinfo{title}{Parametric shortest path algorithms with an
+  application to cyclic staffing}.
+\newblock \bibinfo{journal}{Discrete Applied Mathematics} \bibinfo{volume}{3},
+  \bibinfo{pages}{37--45}.
+\newblock \DOIprefix\doi{10.1016/0166-218X(81)90026-3}.
+%Type = Inproceedings
+\bibitem[{Karpas and Domshlak(2009)}]{karpasdomshlak2009}
+\bibinfo{author}{Karpas, E.}, \bibinfo{author}{Domshlak, C.},
+  \bibinfo{year}{2009}.
+\newblock \bibinfo{title}{Cost-optimal planning with landmarks}, in:
+  \bibinfo{booktitle}{Proceedings of the Twenty-First International Joint
+  Conference on Artificial Intelligence}, pp. \bibinfo{pages}{1728--1733}.
+%Type = Inproceedings
+\bibitem[{Katz and Domshlak(2008)}]{katzdomshlak2008}
+\bibinfo{author}{Katz, M.}, \bibinfo{author}{Domshlak, C.},
+  \bibinfo{year}{2008}.
+\newblock \bibinfo{title}{Optimal additive composition of abstraction-based
+  admissible heuristics}, in: \bibinfo{booktitle}{Proceedings of the Eighteenth
+  International Conference on Automated Planning and Scheduling},
+  \bibinfo{publisher}{AAAI Press}. pp. \bibinfo{pages}{174--181}.
+\newblock \URLprefix \url{https://ctpelok77.github.io/papers/icaps08b.pdf}.
+%Type = Inproceedings
+\bibitem[{Keller et~al.(2016)Keller, Pommerening, Seipp, Gei{\ss}er and
+  Mattm{\"u}ller}]{statedependent2016}
+\bibinfo{author}{Keller, T.}, \bibinfo{author}{Pommerening, F.},
+  \bibinfo{author}{Seipp, J.}, \bibinfo{author}{Gei{\ss}er, F.},
+  \bibinfo{author}{Mattm{\"u}ller, R.}, \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{State-dependent cost partitionings for cartesian
+  abstractions in classical planning}, in: \bibinfo{booktitle}{Proceedings of
+  the Twenty-Fifth International Joint Conference on Artificial Intelligence},
+  pp. \bibinfo{pages}{3161--3169}.
+%Type = Inproceedings
+\bibitem[{Kl{\"o}{\ss}ner et~al.(2023)Kl{\"o}{\ss}ner, Seipp and
+  Steinmetz}]{probabilisticscp2023}
+\bibinfo{author}{Kl{\"o}{\ss}ner, T.}, \bibinfo{author}{Seipp, J.},
+  \bibinfo{author}{Steinmetz, M.}, \bibinfo{year}{2023}.
+\newblock \bibinfo{title}{Cartesian abstractions and saturated cost
+  partitioning in probabilistic planning}, in: \bibinfo{booktitle}{Proceedings
+  of the Twenty-Sixth European Conference on Artificial Intelligence}, pp.
+  \bibinfo{pages}{1272--1279}.
+%Type = Inproceedings
+\bibitem[{Koenig and Likhachev(2002)}]{dstar2002}
+\bibinfo{author}{Koenig, S.}, \bibinfo{author}{Likhachev, M.},
+  \bibinfo{year}{2002}.
+\newblock \bibinfo{title}{{D* Lite}}, in: \bibinfo{booktitle}{Proceedings of
+  the Eighteenth National Conference on Artificial Intelligence}, pp.
+  \bibinfo{pages}{476--483}.
+%Type = Article
+\bibitem[{Koenig and Likhachev(2005)}]{koeniglichachev2005}
+\bibinfo{author}{Koenig, S.}, \bibinfo{author}{Likhachev, M.},
+  \bibinfo{year}{2005}.
+\newblock \bibinfo{title}{Fast replanning for navigation in unknown terrain}.
+\newblock \bibinfo{journal}{IEEE Transactions on Robotics}
+  \bibinfo{volume}{21}, \bibinfo{pages}{354--363}.
+%Type = Article
+\bibitem[{Koenig et~al.(2004)Koenig, Likhachev and Furcy}]{lpa2004}
+\bibinfo{author}{Koenig, S.}, \bibinfo{author}{Likhachev, M.},
+  \bibinfo{author}{Furcy, D.}, \bibinfo{year}{2004}.
+\newblock \bibinfo{title}{Lifelong planning {A*}}.
+\newblock \bibinfo{journal}{Artificial Intelligence} \bibinfo{volume}{155},
+  \bibinfo{pages}{93--146}.
+%Type = Inproceedings
+\bibitem[{Korf(1997)}]{korf1997}
+\bibinfo{author}{Korf, R.E.}, \bibinfo{year}{1997}.
+\newblock \bibinfo{title}{Finding optimal solutions to {Rubik's Cube} using
+  pattern databases}, in: \bibinfo{booktitle}{Proceedings of the Fourteenth
+  National Conference on Artificial Intelligence}, pp.
+  \bibinfo{pages}{700--705}.
+%Type = Book
+\bibitem[{Pearl(1984)}]{pearl1984}
+\bibinfo{author}{Pearl, J.}, \bibinfo{year}{1984}.
+\newblock \bibinfo{title}{Heuristics: Intelligent Search Strategies for
+  Computer Problem Solving}.
+\newblock \bibinfo{publisher}{Addison-Wesley}.
+%Type = Inproceedings
+\bibitem[{Pommerening et~al.(2015)Pommerening, Helmert, R{\"o}ger and
+  Seipp}]{fromnegative2015}
+\bibinfo{author}{Pommerening, F.}, \bibinfo{author}{Helmert, M.},
+  \bibinfo{author}{R{\"o}ger, G.}, \bibinfo{author}{Seipp, J.},
+  \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{From non-negative to general operator cost
+  partitioning}, in: \bibinfo{booktitle}{Proceedings of the Twenty-Ninth AAAI
+  Conference on Artificial Intelligence}, pp. \bibinfo{pages}{3335--3341}.
+\newblock \DOIprefix\doi{10.1609/aaai.v29i1.9668}.
+%Type = Inproceedings
+\bibitem[{Pommerening et~al.(2021)Pommerening, Keller, Halasi, Seipp, Sievers
+  and Helmert}]{dw2021}
+\bibinfo{author}{Pommerening, F.}, \bibinfo{author}{Keller, T.},
+  \bibinfo{author}{Halasi, V.}, \bibinfo{author}{Seipp, J.},
+  \bibinfo{author}{Sievers, S.}, \bibinfo{author}{Helmert, M.},
+  \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Dantzig--wolfe decomposition for cost partitioning},
+  in: \bibinfo{booktitle}{Proceedings of the Thirty-First International
+  Conference on Automated Planning and Scheduling}, pp.
+  \bibinfo{pages}{271--280}.
+%Type = Inproceedings
+\bibitem[{Pommerening et~al.(2013)Pommerening, R{\"o}ger and
+  Helmert}]{pommerening2013}
+\bibinfo{author}{Pommerening, F.}, \bibinfo{author}{R{\"o}ger, G.},
+  \bibinfo{author}{Helmert, M.}, \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{Getting the most out of pattern databases for
+  classical planning}, in: \bibinfo{booktitle}{Proceedings of the Twenty-Third
+  International Joint Conference on Artificial Intelligence}, pp.
+  \bibinfo{pages}{2357--2364}.
+%Type = Inproceedings
+\bibitem[{Pommerening et~al.(2014)Pommerening, R{\"o}ger, Helmert and
+  Bonet}]{lpbased2014}
+\bibinfo{author}{Pommerening, F.}, \bibinfo{author}{R{\"o}ger, G.},
+  \bibinfo{author}{Helmert, M.}, \bibinfo{author}{Bonet, B.},
+  \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{{LP}-based heuristics for cost-optimal planning}, in:
+  \bibinfo{booktitle}{Proceedings of the Twenty-Fourth International Conference
+  on Automated Planning and Scheduling}, pp. \bibinfo{pages}{226--234}.
+%Type = Inproceedings
+\bibitem[{Pommerening et~al.(2019)Pommerening, R{\"o}ger, Helmert, Cambazard,
+  Rousseau and Salvagnin}]{lagrangian2019}
+\bibinfo{author}{Pommerening, F.}, \bibinfo{author}{R{\"o}ger, G.},
+  \bibinfo{author}{Helmert, M.}, \bibinfo{author}{Cambazard, H.},
+  \bibinfo{author}{Rousseau, L.M.}, \bibinfo{author}{Salvagnin, D.},
+  \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Lagrangian decomposition for optimal cost
+  partitioning}, in: \bibinfo{booktitle}{Proceedings of the Twenty-Ninth
+  International Conference on Automated Planning and Scheduling}, pp.
+  \bibinfo{pages}{338--347}.
+%Type = Inproceedings
+\bibitem[{Pozo and Seipp(2025)}]{pozo2025}
+\bibinfo{author}{Pozo, M.}, \bibinfo{author}{Seipp, J.}, \bibinfo{year}{2025}.
+\newblock \bibinfo{title}{Abstraction heuristics for classical planning tasks
+  with conditional effects}, in: \bibinfo{booktitle}{Proceedings of the
+  Thirty-Fourth International Joint Conference on Artificial Intelligence}, pp.
+  \bibinfo{pages}{8608--8616}.
+%Type = Article
+\bibitem[{Ramalingam and Reps(1996)}]{ramalingam1996}
+\bibinfo{author}{Ramalingam, G.}, \bibinfo{author}{Reps, T.},
+  \bibinfo{year}{1996}.
+\newblock \bibinfo{title}{An incremental algorithm for a generalization of the
+  shortest-path problem}.
+\newblock \bibinfo{journal}{Journal of Algorithms} \bibinfo{volume}{21},
+  \bibinfo{pages}{267--305}.
+\newblock \DOIprefix\doi{10.1006/jagm.1996.0046}.
+%Type = Inproceedings
+\bibitem[{Salerno et~al.(2026)Salerno, Fuentetaja and Seipp}]{monotonic2026}
+\bibinfo{author}{Salerno, M.}, \bibinfo{author}{Fuentetaja, R.},
+  \bibinfo{author}{Seipp, J.}, \bibinfo{year}{2026}.
+\newblock \bibinfo{title}{Monotonic variants of saturated cost partitioning},
+  in: \bibinfo{booktitle}{Proceedings of the Thirty-Sixth International
+  Conference on Automated Planning and Scheduling}, pp.
+  \bibinfo{pages}{415--419}.
+%Type = Inproceedings
+\bibitem[{Salerno et~al.(2025)Salerno, Fuentetaja, Speck and
+  Seipp}]{mergecartesian2025}
+\bibinfo{author}{Salerno, M.}, \bibinfo{author}{Fuentetaja, R.},
+  \bibinfo{author}{Speck, D.}, \bibinfo{author}{Seipp, J.},
+  \bibinfo{year}{2025}.
+\newblock \bibinfo{title}{Merging cartesian abstractions for classical
+  planning}, in: \bibinfo{booktitle}{Proceedings of the Twenty-Eighth European
+  Conference on Artificial Intelligence}, pp. \bibinfo{pages}{4766--4773}.
+%Type = Inproceedings
+\bibitem[{Seipp(2017)}]{betterorders2017}
+\bibinfo{author}{Seipp, J.}, \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Better orders for saturated cost partitioning in
+  optimal classical planning}, in: \bibinfo{booktitle}{Proceedings of the Tenth
+  Annual Symposium on Combinatorial Search}, pp. \bibinfo{pages}{149--153}.
+%Type = Phdthesis
+\bibitem[{Seipp(2018)}]{seipp2018thesis}
+\bibinfo{author}{Seipp, J.}, \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Counterexample-Guided Cartesian Abstraction
+  Refinement and Saturated Cost Partitioning for Optimal Classical Planning}.
+\newblock Ph.D. thesis. University of Basel.
+%Type = Inproceedings
+\bibitem[{Seipp(2019)}]{patternselection2019}
+\bibinfo{author}{Seipp, J.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Pattern selection for optimal classical planning with
+  saturated cost partitioning}, in: \bibinfo{booktitle}{Proceedings of the
+  Twenty-Eighth International Joint Conference on Artificial Intelligence}, pp.
+  \bibinfo{pages}{5621--5627}.
+%Type = Inproceedings
+\bibitem[{Seipp(2021)}]{online2021}
+\bibinfo{author}{Seipp, J.}, \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Online saturated cost partitioning for classical
+  planning}, in: \bibinfo{booktitle}{Proceedings of the Thirty-First
+  International Conference on Automated Planning and Scheduling}, pp.
+  \bibinfo{pages}{317--321}.
+%Type = Inproceedings
+\bibitem[{Seipp(2024a)}]{seipp2024dissecting}
+\bibinfo{author}{Seipp, J.}, \bibinfo{year}{2024}a.
+\newblock \bibinfo{title}{Dissecting scorpion: Ablation study of an optimal
+  classical planner}, in: \bibinfo{booktitle}{Proceedings of the Twenty-Seventh
+  European Conference on Artificial Intelligence}, pp. \bibinfo{pages}{39--42}.
+%Type = Inproceedings
+\bibitem[{Seipp(2024b)}]{cartesiantransitions2024}
+\bibinfo{author}{Seipp, J.}, \bibinfo{year}{2024}b.
+\newblock \bibinfo{title}{Efficiently computing transitions in cartesian
+  abstractions}, in: \bibinfo{booktitle}{Proceedings of the Thirty-Fourth
+  International Conference on Automated Planning and Scheduling}, pp.
+  \bibinfo{pages}{509--513}.
+%Type = Inproceedings
+\bibitem[{Seipp et~al.(2020a)Seipp, von Allmen and Helmert}]{incremental2020}
+\bibinfo{author}{Seipp, J.}, \bibinfo{author}{von Allmen, S.},
+  \bibinfo{author}{Helmert, M.}, \bibinfo{year}{2020}a.
+\newblock \bibinfo{title}{Incremental search for counterexample-guided
+  cartesian abstraction refinement}, in: \bibinfo{booktitle}{Proceedings of the
+  Thirtieth International Conference on Automated Planning and Scheduling}, pp.
+  \bibinfo{pages}{244--248}.
+%Type = Inproceedings
+\bibitem[{Seipp and Helmert(2013)}]{seipphelmert2013}
+\bibinfo{author}{Seipp, J.}, \bibinfo{author}{Helmert, M.},
+  \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{Counterexample-guided cartesian abstraction
+  refinement}, in: \bibinfo{booktitle}{Proceedings of the Twenty-Third
+  International Conference on Automated Planning and Scheduling}, pp.
+  \bibinfo{pages}{347--351}.
+%Type = Inproceedings
+\bibitem[{Seipp and Helmert(2014)}]{seipphelmert2014}
+\bibinfo{author}{Seipp, J.}, \bibinfo{author}{Helmert, M.},
+  \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{Diverse and additive cartesian abstraction
+  heuristics}, in: \bibinfo{booktitle}{Proceedings of the Twenty-Fourth
+  International Conference on Automated Planning and Scheduling}, pp.
+  \bibinfo{pages}{289--297}.
+%Type = Article
+\bibitem[{Seipp and Helmert(2018)}]{seipphelmert2018}
+\bibinfo{author}{Seipp, J.}, \bibinfo{author}{Helmert, M.},
+  \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Counterexample-guided cartesian abstraction
+  refinement for classical planning}.
+\newblock \bibinfo{journal}{Journal of Artificial Intelligence Research}
+  \bibinfo{volume}{62}, \bibinfo{pages}{535--577}.
+\newblock \DOIprefix\doi{10.1613/jair.1.11217}.
+%Type = Inproceedings
+\bibitem[{Seipp and Helmert(2019)}]{subsetsaturated2019}
+\bibinfo{author}{Seipp, J.}, \bibinfo{author}{Helmert, M.},
+  \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Subset-saturated cost partitioning for optimal
+  classical planning}, in: \bibinfo{booktitle}{Proceedings of the Twenty-Ninth
+  International Conference on Automated Planning and Scheduling}, pp.
+  \bibinfo{pages}{391--400}.
+%Type = Inproceedings
+\bibitem[{Seipp et~al.(2017a)Seipp, Keller and Helmert}]{comparison2017}
+\bibinfo{author}{Seipp, J.}, \bibinfo{author}{Keller, T.},
+  \bibinfo{author}{Helmert, M.}, \bibinfo{year}{2017}a.
+\newblock \bibinfo{title}{A comparison of cost partitioning algorithms for
+  optimal classical planning}, in: \bibinfo{booktitle}{Proceedings of the
+  Twenty-Seventh International Conference on Automated Planning and
+  Scheduling}, pp. \bibinfo{pages}{259--268}.
+%Type = Inproceedings
+\bibitem[{Seipp et~al.(2017b)Seipp, Keller and Helmert}]{narrowing2017}
+\bibinfo{author}{Seipp, J.}, \bibinfo{author}{Keller, T.},
+  \bibinfo{author}{Helmert, M.}, \bibinfo{year}{2017}b.
+\newblock \bibinfo{title}{Narrowing the gap between saturated and optimal cost
+  partitioning for classical planning}, in: \bibinfo{booktitle}{Proceedings of
+  the Thirty-First AAAI Conference on Artificial Intelligence}, pp.
+  \bibinfo{pages}{3651--3657}.
+%Type = Article
+\bibitem[{Seipp et~al.(2020b)Seipp, Keller and Helmert}]{scp2020}
+\bibinfo{author}{Seipp, J.}, \bibinfo{author}{Keller, T.},
+  \bibinfo{author}{Helmert, M.}, \bibinfo{year}{2020}b.
+\newblock \bibinfo{title}{Saturated cost partitioning for optimal classical
+  planning}.
+\newblock \bibinfo{journal}{Journal of Artificial Intelligence Research}
+  \bibinfo{volume}{67}, \bibinfo{pages}{129--167}.
+%Type = Inproceedings
+\bibitem[{Seipp et~al.(2021)Seipp, Keller and Helmert}]{saturatedposthoc2021}
+\bibinfo{author}{Seipp, J.}, \bibinfo{author}{Keller, T.},
+  \bibinfo{author}{Helmert, M.}, \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Saturated post-hoc optimization for classical
+  planning}, in: \bibinfo{booktitle}{Proceedings of the Thirty-Fifth AAAI
+  Conference on Artificial Intelligence}, pp. \bibinfo{pages}{11947--11953}.
+%Type = Inproceedings
+\bibitem[{Seipp et~al.(2015)Seipp, Pommerening and
+  Helmert}]{seipppommerening2015}
+\bibinfo{author}{Seipp, J.}, \bibinfo{author}{Pommerening, F.},
+  \bibinfo{author}{Helmert, M.}, \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{New optimization functions for potential heuristics},
+  in: \bibinfo{booktitle}{Proceedings of the Twenty-Fifth International
+  Conference on Automated Planning and Scheduling}, pp.
+  \bibinfo{pages}{193--201}.
+%Type = Inproceedings
+\bibitem[{Sievers et~al.(2014)Sievers, Wehrle and Helmert}]{sievers2014}
+\bibinfo{author}{Sievers, S.}, \bibinfo{author}{Wehrle, M.},
+  \bibinfo{author}{Helmert, M.}, \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{Generalized label reduction for merge-and-shrink
+  heuristics}, in: \bibinfo{booktitle}{Proceedings of the Twenty-Eighth AAAI
+  Conference on Artificial Intelligence}, pp. \bibinfo{pages}{2358--2366}.
+%Type = Inproceedings
+\bibitem[{Sievers et~al.(2016)Sievers, Wehrle and Helmert}]{sievers2016}
+\bibinfo{author}{Sievers, S.}, \bibinfo{author}{Wehrle, M.},
+  \bibinfo{author}{Helmert, M.}, \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{An analysis of merge strategies for merge-and-shrink
+  heuristics}, in: \bibinfo{booktitle}{Proceedings of the Twenty-Sixth
+  International Conference on Automated Planning and Scheduling}, pp.
+  \bibinfo{pages}{294--298}.
+%Type = Inproceedings
+\bibitem[{Skjelnes et~al.(2024)Skjelnes, Gnad and Seipp}]{costpartitionmsa2024}
+\bibinfo{author}{Skjelnes, M.}, \bibinfo{author}{Gnad, D.},
+  \bibinfo{author}{Seipp, J.}, \bibinfo{year}{2024}.
+\newblock \bibinfo{title}{Cost partitioning for multiple sequence alignment},
+  in: \bibinfo{booktitle}{Proceedings of the Twenty-Seventh European Conference
+  on Artificial Intelligence}, pp. \bibinfo{pages}{4224--4231}.
+%Type = Inproceedings
+\bibitem[{Speck and Seipp(2022)}]{speckseipp2022}
+\bibinfo{author}{Speck, D.}, \bibinfo{author}{Seipp, J.}, \bibinfo{year}{2022}.
+\newblock \bibinfo{title}{New refinement strategies for cartesian
+  abstractions}, in: \bibinfo{booktitle}{Proceedings of the Thirty-Second
+  International Conference on Automated Planning and Scheduling}, pp.
+  \bibinfo{pages}{348--352}.
+%Type = Inproceedings
+\bibitem[{Stentz(1995)}]{stentz1995}
+\bibinfo{author}{Stentz, A.}, \bibinfo{year}{1995}.
+\newblock \bibinfo{title}{The focussed {D*} algorithm for real-time
+  replanning}, in: \bibinfo{booktitle}{Proceedings of the Fourteenth
+  International Joint Conference on Artificial Intelligence}, pp.
+  \bibinfo{pages}{1652--1659}.
+%Type = Article
+\bibitem[{Yang et~al.(2008)Yang, Culberson, Holte, Zahavi and
+  Felner}]{yang2008}
+\bibinfo{author}{Yang, F.}, \bibinfo{author}{Culberson, J.C.},
+  \bibinfo{author}{Holte, R.}, \bibinfo{author}{Zahavi, U.},
+  \bibinfo{author}{Felner, A.}, \bibinfo{year}{2008}.
+\newblock \bibinfo{title}{A general theory of additive state space
+  abstractions}.
+\newblock \bibinfo{journal}{Journal of Artificial Intelligence Research}
+  \bibinfo{volume}{32}, \bibinfo{pages}{631--662}.
+\newblock \DOIprefix\doi{10.1613/jair.2486}.
+%Type = Article
+\bibitem[{Young et~al.(1991)Young, Tarjan and Orlin}]{youngtarjanorlin1991}
+\bibinfo{author}{Young, N.E.}, \bibinfo{author}{Tarjan, R.E.},
+  \bibinfo{author}{Orlin, J.B.}, \bibinfo{year}{1991}.
+\newblock \bibinfo{title}{Faster parametric shortest path and minimum-balance
+  algorithms}.
+\newblock \bibinfo{journal}{Networks} \bibinfo{volume}{21},
+  \bibinfo{pages}{205--221}.
+
+\end{thebibliography}
